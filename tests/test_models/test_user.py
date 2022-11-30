@@ -50,3 +50,4 @@ class TestUser(unittest.TestCase):
             str(type(self.user)),
             "<class 'models.user.User'>")
         self.assertIsInstance(self.user, User)
+        
